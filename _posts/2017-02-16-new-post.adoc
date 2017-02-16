@@ -3,5 +3,6 @@
 :page-navtitle: Name for posts feed goes here
 :page-root: ../../../
 :page-layout: post
+:page-summary: Post summary for posts feed goes here
 
 Post content goes here
