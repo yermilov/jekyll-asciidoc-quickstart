@@ -2,5 +2,6 @@
 :showtitle:
 :page-navtitle: Name for posts feed goes here
 :page-root: ../../../
+:page-layout: post
 
 Post content goes here
