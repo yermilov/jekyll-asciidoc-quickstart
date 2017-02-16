@@ -1,0 +1,21 @@
+<footer class="row">
+    <div class="large-12 columns">
+        <hr>
+        <div class="row">
+            <div class="large-12 columns">
+              <span>
+                {% if site.author %}
+                  {{ site.author | escape }}
+                {% else %}
+                  {{ site.title | escape }}
+                {% endif %}
+              </span>
+              <span>
+                {% if site.email %}
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                {% endif %}
+              </span>
+            </div>
+        </div>
+    </div>
+</footer>
