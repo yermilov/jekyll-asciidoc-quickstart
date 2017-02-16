@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div>  
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          {% if post.external_url %}
+            <a href="{{ post.external_url }}">{{ post.navtitle | escape }}</a>
+          {% else %}
+            <a href="{{ post.url | relative_url }}">{{ post.navtitle | escape }}</a>
+          {% endif %}
+        </h2>
+          {% if post.summary %}
+            <p> {{ post.summary }} </p>
+          {% else %}
+            <p> {{ post.excerpt }} </p>
+          {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
