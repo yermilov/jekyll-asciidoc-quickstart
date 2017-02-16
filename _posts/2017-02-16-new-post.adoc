@@ -1,3 +1,4 @@
 = Post title goes here
+:page-navtitle: Name for posts feed goes here
 
 Post content goes here
