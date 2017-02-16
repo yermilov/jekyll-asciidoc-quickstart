@@ -1,5 +1,7 @@
 title: Jekyll AsciiDoc Quickstart
 description: The Jekyll AsciiDoc Quickstart project is a leg-up in starting your own website hosted on GitHub with content based in AsciiDoc.
+author: Yaroslav Yermilov
+email: yermilov17@gmail.com
 exclude:
   - LICENSE.adoc
   - README.adoc
